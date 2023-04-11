@@ -1,0 +1,17 @@
+name: variants
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - samtools
+  - bwa
+  - fastqc
+  - trimmomatic
+  - varscan
+  - bamtools
+  - bcftools
+  - tabix
+  - pip
+  - pip:
+      - multiqc
