@@ -1,2 +1,2 @@
-# Variant-calling-workflow
+# Variant calling workflow
 A variant calling workflow, starting from raw reads to variant identification. The easiest way to run this workflow is by setting up a conda environment using the environment.yml which also adds the necessary dependencies. The software used is **FastQC/MultiQC** for quality control, **Trimmomatic** for trimming, **BWA** for mapping, **bamtools**, **samtools** and **bcftools** for processing the produced files and finally **varscan** for variant calling. 
